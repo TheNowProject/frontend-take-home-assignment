@@ -1,4 +1,5 @@
 import { CreateTodoForm } from '@/client/components/CreateTodoForm'
+import { IFrameTest } from '@/client/components/IFrameTest'
 import { TodoList } from '@/client/components/TodoList'
 
 /**
@@ -31,6 +32,7 @@ const Index = () => {
         <div className="pt-10">
           <CreateTodoForm />
         </div>
+        <IFrameTest />
       </div>
     </main>
   )
